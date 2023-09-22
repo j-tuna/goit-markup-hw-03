@@ -162,7 +162,32 @@ img {
     display: flex;
     margin-right: 9px;
 border-bottom: 1px solid #E7E9FC;
+padding-left: 156px;
+padding-right: 156px;
+padding-top: 24px;
+    padding-bottom: 24px;
+    align-items: baseline;
 }
 .section {
     padding: 120px;
+}
+.logo-container {
+    padding-top: 25.5px;
+    padding-bottom: 25.5px;
+}
+.li-hed-container {
+    gap: 40;
+    align-self: flex-start;
+}
+.ad-container {
+    gap: 40px;
+    justify-content: flex-end
+}
+.footer-container {
+    min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+}
+main {
+    flex-grow: 1;
 }

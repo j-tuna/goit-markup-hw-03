@@ -1,0 +1,132 @@
+body {
+font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+.link {
+text-decoration: none;
+color: #434455;
+}
+.logo-studio {
+    color: #2e2f42;
+        }
+.nav .logo-nav {
+    color: #4D5AE5;
+    font-family: "Raleway", sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.17;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+        text-decoration: none;
+}
+
+.list-header .link-header {
+        color: #2e2f42;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.32px; 
+        text-decoration: none;
+}
+.link-header:active {
+    color: #404bbf;
+}
+.link-header:hover {
+    color: #404bbf;
+}
+.link-header:focus {
+    color: #404bbf;
+}
+.address {
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.address .link:hover,
+.address .link:focus {
+    color: #404BBF;
+}
+.page-header {
+    background-color: #2e2f42;
+}
+.page-title {
+    color: #FFF;
+    text-align: center;
+    font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07;
+        letter-spacing: 1.12px;
+}
+.button {
+    background: #4D5AE5;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+        background: #404BBF;
+}
+.button {
+color: #FFF;
+cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.section-title {
+color: #2E2F42;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.title {
+    color: #2E2F42;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.4px;
+}
+.text {
+    letter-spacing: 0.02em;
+    color: #434455;
+    line-height: 1.5;
+}
+.section-drie {
+    background-color: #F4F4FD;
+}
+
+.section-drie .section-drie-img {
+    background-color: #FFFFFF;
+}
+
+.footer {
+    background-color: #2E2F42;
+}
+.logo-footer {
+    color: #4D5AE5;
+        font-family: "Raleway", sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            text-decoration: none;
+        }
+.logo-studio-two {
+                    color: #F4F4FD;
+                }
+.footer .text {
+    color: #F4F4FD;
+}
+ul {
+    list-style-type: none;
+}

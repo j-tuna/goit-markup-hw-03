@@ -3,6 +3,21 @@ font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
 .link {
 text-decoration: none;
 color: #434455;
@@ -129,4 +144,25 @@ letter-spacing: 0.02em;
 }
 ul {
     list-style-type: none;
+}
+img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+.container {
+    width: 100%;
+    max-width: 1158px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0; 
+    margin-right: 0;
+}
+.header-container {
+    display: flex;
+    margin-right: 9px;
+border-bottom: 1px solid #E7E9FC;
+}
+.section {
+    padding: 120px;
 }

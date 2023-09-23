@@ -211,3 +211,20 @@ gap: 40px;
 padding-top: 24px;
     padding-bottom: 24px;
 }
+.page-container {
+    padding: 188px 0;
+}
+.section-twee {
+    padding: 120px 0;
+
+}
+.ul-caracter {
+    display: flex;
+    gap: 24px;
+}
+.li-first {
+    width: calc((100% - 72px) / 4);
+}
+.ti-drie {
+    margin-bottom: 8px;
+}

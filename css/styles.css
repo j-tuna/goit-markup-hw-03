@@ -211,6 +211,9 @@ gap: 40px;
 padding-top: 24px;
     padding-bottom: 24px;
 }
+.page-header {
+    padding: 188px 0;
+}
 .page-container {
     padding: 188px 0;
 }

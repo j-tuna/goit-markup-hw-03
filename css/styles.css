@@ -161,12 +161,18 @@ img {
 .header-container {
     display: flex;
     margin-right: 9px;
-border-bottom: 1px solid #E7E9FC;
-padding-left: 156px;
-padding-right: 156px;
-padding-top: 24px;
-    padding-bottom: 24px;
+padding-left: 15px;
+padding-right: 15px;
     align-items: baseline;
+    margin: 0 auto;
+}
+.nav {
+    display: flex;
+    align-items: center;
+
+}
+.header {
+        border-bottom: 1px solid #e7e9fc;
 }
 .section {
     padding: 120px;
@@ -174,6 +180,7 @@ padding-top: 24px;
 .logo-container {
     padding-top: 25.5px;
     padding-bottom: 25.5px;
+    margin-right: 76px;
 }
 .li-hed-container {
     gap: 40;
@@ -190,4 +197,10 @@ padding-top: 24px;
 }
 main {
     flex-grow: 1;
+}
+.list-header {
+    display: flex;
+gap: 40px;
+padding-top: 24px;
+    padding-bottom: 24px;
 }

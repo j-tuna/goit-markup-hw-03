@@ -281,6 +281,9 @@ padding: 120px 0 120px 0;
 .title-our {
     margin-bottom: 72px;
 }
+.ti-our {
+    margin-bottom: 8px;
+}
 .list-our {
     display: flex;
     flex-wrap: wrap;
@@ -299,4 +302,7 @@ padding: 120px 0 120px 0;
 .section {
     padding-bottom: 120px;
     padding-top: 120px;
+}
+.page-header {
+    padding: 188px 0;
 }

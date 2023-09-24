@@ -245,7 +245,7 @@ padding-top: 24px;
 .li-first {
     width: calc((100% - 72px) / 4);
 }
-.drie-it-een {
+.list-drie:first-child {
 width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }

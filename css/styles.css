@@ -124,6 +124,14 @@ letter-spacing: 0.02em;
 }
 .section-drie {
     background-color: #F4F4FD;
+    padding: 120px 0;
+}
+.sec-ti-drie {
+    margin-bottom: 72px;
+}
+.list-drie {
+    display: flex;
+    gap: 24px;
 }
 
 .section-drie .section-drie-img {
@@ -231,11 +239,33 @@ padding-top: 24px;
     margin-bottom: 8px;
 }
 .visually-hidden {
-   height: 1px;
-   overflow: hidden;
-   width: 1px;
-white-space: nowrap;
-clip-path: inset(50%);
-   clip: rect(0 0 0 0);
-   position: absolute;
+        position: fixed;
+        transform: scale(0);
+    }
+.li-first {
+    width: calc((100% - 72px) / 4);
+}
+.drie-it-een {
+width: calc((100% - 72px) / 4);
+border-radius: 0px 0px 4px 4px;
+}
+.drie-it-two {
+
+}
+.drie-it-drie {
+
+}
+.drie-it-four {
+
+}
+.list-drie div {
+padding: 32px 0;
+
+}
+.title-drie {
+text-align: center;
+margin-bottom: 8px;
+}
+.text-drie {
+text-align: center;
 }

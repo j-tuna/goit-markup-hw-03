@@ -152,8 +152,10 @@ letter-spacing: 0.02em;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             text-decoration: none;
-            display: inline-block;
             margin-bottom: 16px;
+        }
+        .footer-link {
+         display: inline-block;
         }
 .logo-studio-two {
                     color: #F4F4FD;
@@ -209,7 +211,7 @@ padding-right: 15px;
     gap: 40px;
     justify-content: flex-end
 }
-.footer-container {
+.footer {
     min-height: 100vh;
         display: flex;
         flex-direction: column;

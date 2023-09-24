@@ -238,10 +238,19 @@ padding-top: 24px;
 .ti-drie {
     margin-bottom: 8px;
 }
-.visually-hidden {
-        position: fixed;
-        transform: scale(0);
-    }
+
+        .visually-hidden {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            border: 0;
+            padding: 0;
+            white-space: nowrap;
+            clip-path: inset(100%);
+            clip: rect(0 0 0 0);
+            overflow: hidden;
+        }
 .li-first {
     width: calc((100% - 72px) / 4);
 }
@@ -258,7 +267,7 @@ border-radius: 0px 0px 4px 4px;
 .drie-it-four {
 
 }
-.list-drie div {
+.div-it {
 padding: 32px 0;
 
 }

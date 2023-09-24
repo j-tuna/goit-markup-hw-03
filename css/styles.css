@@ -254,22 +254,12 @@ padding-top: 24px;
 .li-first {
     width: calc((100% - 72px) / 4);
 }
-.first-it {
+.list-drie:first-child {
 width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
-.drie-it-two {
-
-}
-.drie-it-drie {
-
-}
-.drie-it-four {
-
-}
 .div-it {
-padding: 32px 0;
-
+padding: 32px 0 32px;
 }
 .title-drie {
 text-align: center;

@@ -235,7 +235,7 @@ padding-top: 24px;
     gap: 24px;
 }
 .ul-caracter:first-child {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
 }
 .ti-drie {
     margin-bottom: 8px;
@@ -255,7 +255,7 @@ padding-top: 24px;
         }
 
 .list-drie:first-child {
-width: calc((100% - 72px) / 4);
+width: calc((100% - 72px)/4);
 border-radius: 0px 0px 4px 4px;
 }
 .div-it {
@@ -269,5 +269,5 @@ margin-bottom: 8px;
 text-align: center;
 }
 .twee-sec:first-child {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px)/4);
 }

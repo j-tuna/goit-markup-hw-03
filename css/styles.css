@@ -233,9 +233,6 @@ padding-top: 24px;
 .section-twee {
     padding: 120px 0;
 }
-.sec-container {
-
-}
 .ul-caracter {
     display: flex;
     gap: 24px;
@@ -281,8 +278,7 @@ text-align: center;
     flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .section-our {
-    padding-top: 120px;
-    padding-bottom: 120px;
+padding: 120px 0 120px 0;
 }
 .title-our {
     margin-bottom: 72px;

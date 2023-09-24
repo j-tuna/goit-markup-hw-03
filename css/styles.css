@@ -136,6 +136,8 @@ letter-spacing: 0.02em;
 
 .section-drie .section-drie-img {
     background-color: #FFFFFF;
+    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
 }
 
 .footer {
@@ -251,15 +253,13 @@ padding-top: 24px;
             clip: rect(0 0 0 0);
             overflow: hidden;
         }
-.li-first {
-    width: calc((100% - 72px) / 4);
-}
+
 .list-drie:first-child {
 width: calc((100% - 72px) / 4);
 border-radius: 0px 0px 4px 4px;
 }
 .div-it {
-padding: 32px 0 32px;
+padding: 32px 0;
 }
 .title-drie {
 text-align: center;
@@ -267,4 +267,7 @@ margin-bottom: 8px;
 }
 .text-drie {
 text-align: center;
+}
+.twee-sec:first-child {
+    width: calc((100% - 72px) / 4);
 }

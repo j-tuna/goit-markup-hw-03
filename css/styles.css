@@ -306,3 +306,9 @@ padding: 120px 0 120px 0;
 .page-header {
     padding: 188px 0;
 }
+.section-twee .twee-sec {
+    flex-basis: calc((100% - 72px) / 4);
+}
+.section-our .ti-our {
+    width: calc((100% - 48px) / 3);
+}

@@ -240,9 +240,6 @@ padding-top: 24px;
     display: flex;
     gap: 24px;
 }
-.ul-caracter:first-child {
-    width: calc((100% - 72px)/4);
-}
 .ti-drie {
     margin-bottom: 8px;
 }
@@ -277,8 +274,11 @@ margin-bottom: 8px;
 .text-drie {
 text-align: center;
 }
+.twee-sec {
+    display: flex;
+}
 .ul-caracter:first-child {
-    width: calc((100% - 72px)/4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .section-our {
     padding-top: 120px;

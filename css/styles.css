@@ -214,20 +214,28 @@ padding-top: 24px;
 .page-header {
     padding: 188px 0;
 }
-.page-container {
-    padding: 188px 0;
-}
 .section-twee {
     padding: 120px 0;
+}
+.sec-container {
 
 }
 .ul-caracter {
     display: flex;
     gap: 24px;
 }
-.li-first {
+.ul-caracter:first-child {
     width: calc((100% - 72px) / 4);
 }
 .ti-drie {
     margin-bottom: 8px;
+}
+.visually-hidden {
+   height: 1px;
+   overflow: hidden;
+   width: 1px;
+white-space: nowrap;
+clip-path: inset(50%);
+   clip: rect(0 0 0 0);
+   position: absolute;
 }

@@ -152,6 +152,8 @@ letter-spacing: 0.02em;
             letter-spacing: 0.03em;
             text-transform: uppercase;
             text-decoration: none;
+            display: inline-block;
+            margin-bottom: 16px;
         }
 .logo-studio-two {
                     color: #F4F4FD;
@@ -211,6 +213,8 @@ padding-right: 15px;
     min-height: 100vh;
         display: flex;
         flex-direction: column;
+        padding: 100px 0;
+    
 }
 main {
     flex-grow: 1;
@@ -261,6 +265,9 @@ border-radius: 0px 0px 4px 4px;
 .div-it {
 padding: 32px 0;
 }
+.list-drie .div-it {
+    padding: 32px 0;
+}
 .title-drie {
 text-align: center;
 margin-bottom: 8px;
@@ -268,6 +275,28 @@ margin-bottom: 8px;
 .text-drie {
 text-align: center;
 }
-.twee-sec:first-child {
+.ul-caracter:first-child {
     width: calc((100% - 72px)/4);
+}
+.section-our {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.title-our {
+    margin-bottom: 72px;
+}
+.list-our {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+.list-our:first-child {
+    width: calc((100% - 48px)/3);
+}
+.our-con {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px
 }

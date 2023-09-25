@@ -66,8 +66,9 @@ color: #434455;
 .address .link:focus {
     color: #404BBF;
 }
-.li-hed-ad {
-
+.li-hed-ad .link {
+display: flex;
+gap: 40px;
 }
 .ad-hed-ul {
     display: flex;
@@ -76,6 +77,13 @@ color: #434455;
 .hed-menu {
 display: flex;
     gap: 40px;
+}
+.menu-li {
+    display: flex;
+    gap: 40px;
+}
+.link-header {
+    padding: 24px 0;
 }
 .li-hed-container {
     display: flex;

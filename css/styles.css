@@ -44,6 +44,7 @@ color: #434455;
         line-height: 1.5;
         letter-spacing: 0.32px; 
         text-decoration: none;
+        padding: 24px 0;
 }
 .link-header:active {
     color: #404bbf;
@@ -58,6 +59,8 @@ color: #434455;
     font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    display: flex;
+        gap: 40px;
 }
 .address .link:hover,
 .address .link:focus {
@@ -68,7 +71,7 @@ color: #434455;
 }
 .ad-hed-ul {
     display: flex;
-    gap: 40px
+    gap: 40px;
 }
 .hed-menu {
 display: flex;

@@ -296,9 +296,6 @@ margin-bottom: 8px;
 .text-drie {
 text-align: center;
 }
-.twee-sec {
-    display: flex;
-}
 .ul-caracter:first-child {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }

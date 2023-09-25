@@ -85,10 +85,6 @@ display: flex;
 .link-header {
     padding: 24px 0;
 }
-.li-hed-container {
-    display: flex;
-    gap: 40px;
-}
 .page-header {
     background-color: #2e2f42;
     padding: 188px 0;
@@ -239,11 +235,7 @@ padding-right: 15px;
     padding-bottom: 25.5px;
     margin-right: 76px;
 }
-.list-header {
-    gap: 40;
-    align-self: flex-start;
-}
-.ad-container {
+.address {
     gap: 40px;
     justify-content: flex-end;
 }

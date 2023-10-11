@@ -222,7 +222,8 @@ img {
 padding-left: 15px;
 padding-right: 15px;
     align-items: baseline;
-    margin: 0 auto;
+ margin-right: auto;
+ margin-left: auto;
 }
 .nav {
     display: flex;
